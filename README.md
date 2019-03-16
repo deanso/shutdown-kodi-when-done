@@ -7,6 +7,8 @@ Just schedule this script in cron to be run every day at say 01:00 hours.
 It will shutdown the kodi install when no movie is on, else it will wait till movie is finished.
 When movie is finished you have 5 minutes to start watching something else or it will shutdown.
 
+original idea from here: https://andrewwippler.com/2015/07/06/kodi-shutdown-script/
+
 ### Prerequisites
 
 script is only tested on:
