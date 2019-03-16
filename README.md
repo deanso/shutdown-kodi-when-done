@@ -20,14 +20,12 @@ install jq:
 dnf install jq
 ```
 
-copy the script and setup crontab to run every night at 01:00 hour:
+Copy the script to the kodi server.
+Setup crontab to run every night at 01:00 hour:
 
 ```
 0 1 * * * /script-location/kodiCronShutdown.sh
 ```
-
-
-
 
 
 
