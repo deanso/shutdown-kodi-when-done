@@ -10,8 +10,9 @@ When movie is finished you have 5 minutes to start watching something else or it
 original idea from here: https://andrewwippler.com/2015/07/06/kodi-shutdown-script/
 
 ### Prerequisites
-install jq.
-Script is only tested on Fedora 29 with Kodi 18
+
+* Script is only tested on Fedora 29 with Kodi 18
+* install jq.
 
 ### Installing
 
