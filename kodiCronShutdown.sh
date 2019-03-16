@@ -1,7 +1,8 @@
 #!/bin/bash
-# when started, check every 5 min by main loop if playerid is found in kodi endpoint. If so sleep 5 minutes and try again. when not found, shutdown, unless a movie is started within 5 minutes.
-# Initiate a shutdown at a certain time
-# Do not interrupt viewing when a video is playing past the certain time
+
+# Initiate a shutdown at a certain time: just schedule script via cron
+# Do not interrupt viewing when a video is playing 
+# After movie is finished you have 5 minutes to start something else, otherwise shutdown.
 
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
