@@ -13,7 +13,7 @@ original idea from here: https://andrewwippler.com/2015/07/06/kodi-shutdown-scri
 
 * Script is only tested on Fedora 29 with Kodi 18
 * install jq.
-* The Kodi web interface has to be enabled.
+* The Kodi web interface has to be enabled: Settings > Services > Control > Allow Remote Control via Http
 
 ### Installing
 
